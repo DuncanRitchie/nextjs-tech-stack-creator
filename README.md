@@ -3,7 +3,7 @@
 
 As part of learning Next.js, I followed this tutorial from Chris Bongers: https://daily-dev-tips.com/posts/how-i-created-a-stack-guessing-tool-using-nextjs/
 
-It’s a simple website that invents a tech-stack that fits the letters of the input. For example, if you input “Duncan”, it suggests “Docker, Underscore, Node, CSS, APIs, Next”.
+It’s a simple website that invents a tech-stack that fits the letters of the input. For example, if you input “Duncan”, it suggests “Docker, UIKit, Node, CSS, APIs, Next”.
 
 I deviated from the tutorial in three ways:
 * I didn’t include any of the Tailwind styles or React icons.
