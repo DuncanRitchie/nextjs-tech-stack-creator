@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   const router = useRouter()
   
-  const findTechStack = async (event) => {
+  const redirect = async (event) => {
     event.preventDefault()
     const name = event.target.name.value
     router.push(name)
@@ -28,7 +28,7 @@ export default function Home() {
           You’ve got a name? Let’s find your stack!
         </p>
 
-        <form onSubmit={findTechStack}>
+        <form onSubmit={redirect}>
           <input name='name' required autoComplete='name' />
           <button>Get tech-stack</button>
         </form>
