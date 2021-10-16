@@ -23,7 +23,7 @@ export default function Home() {
         </h1>
 
         <p>
-          You’ve got a name? Let’s find your stack!
+          Type your name and let’s find your stack!
         </p>
 
         <form onSubmit={redirect}>
