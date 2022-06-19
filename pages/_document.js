@@ -11,7 +11,7 @@ export default function Document() {
       </Head>
       <body>
         <Main />
-        {isDev && <NextScript />}
+        <NextScript />
       </body>
     </Html>
   )
