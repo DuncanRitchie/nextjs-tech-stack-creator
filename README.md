@@ -1,5 +1,5 @@
 # Tech-stack creator with Next.js
-[See it live.](https://duncan-tech-stacks.netlify.app/)
+[See it live.](https://www.duncanritchie.co.uk/tech-stack-creator)
 
 As part of learning Next.js, I followed this tutorial from Chris Bongers: https://daily-dev-tips.com/posts/how-i-created-a-stack-guessing-tool-using-nextjs/
 
