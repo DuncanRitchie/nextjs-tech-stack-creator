@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { useRouter } from 'next/router'
+import { basePath } from '../next.config'
 
 export default function Home() {
     const router = useRouter()
@@ -7,7 +8,7 @@ export default function Home() {
     const redirect = async (event) => {
         event.preventDefault()
         const name = event.target.name.value
-        router.push(name)
+        router.push(basePath + '/' + name)
     }
 
   return (<>
