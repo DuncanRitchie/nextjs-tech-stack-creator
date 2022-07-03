@@ -22,13 +22,14 @@ export default function Home() {
           Get a tech-stack based on your name!
         </h1>
 
-        <p>
-          Type your name and let’s find your stack!
-        </p>
-
         <form onSubmit={redirect}>
-          <input name='name' required autoComplete='name' />
-          <button>Get tech-stack</button>
+          <label htmlFor='nameInput'>
+            Type your name and let’s find your stack!
+          </label>
+          <div>
+            <input name='name' id='nameInput' required autoComplete='name' />
+            <button>Get tech-stack</button>
+          </div>
         </form>
       </main>
   </>)
