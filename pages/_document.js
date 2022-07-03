@@ -5,7 +5,7 @@ export default function Document() {
     <Html>
       <Head>
         <link href="https://www.duncanritchie.co.uk/css/main.css" rel="stylesheet" key="main"/>
-        <link href="https://www.duncanritchie.co.uk/velut-json-generator/main.css" rel="stylesheet" key="json-generator"/>
+        <link href="https://www.duncanritchie.co.uk/css/subsites.css" rel="stylesheet" key="subsites"/>
       </Head>
       <body>
         <Main />
